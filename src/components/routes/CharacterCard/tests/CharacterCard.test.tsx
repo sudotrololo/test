@@ -37,7 +37,7 @@ describe('Компонент CharacterCard', () => {
   it('Должен вывести нужного персонажа после клика на его карточку', async () => {
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
-    await page.goto('http://localhost:3000/cards');
+    await page.goto('https://sudotrololo.github.io/test/');
     await page.waitForSelector('#root > div > ul > li:nth-child(1) > a');
     await page.click('#root > div > ul > li:nth-child(1) > a');
     await page.waitForSelector('h2');
