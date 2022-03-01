@@ -1,0 +1,32 @@
+.header {
+    .logo {
+        width: 50px;
+    }
+    .nav {
+        width: 100%;
+        margin: 15px 0;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.title {
+    border-bottom: 2px rgb(14, 140, 199) solid;
+}
+
+.label {
+    margin-right: 10px;
+}
+
+.btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 3px 17px;
+    background-color: rgb(14, 140, 199);
+    color: #fff;
+    font-weight: 800;
+    outline: none;
+    border: none;
+    margin-right: 7px;
+}

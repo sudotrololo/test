@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Компонент CharacterCard должен соответствовать снимку 1`] = `
+<ul
+  className="wrapper"
+/>
+`;

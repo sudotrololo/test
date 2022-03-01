@@ -1,0 +1,9 @@
+.component {
+}
+.episodes {
+    display: flex;
+    flex-wrap: wrap;
+    .episode {
+        margin-right: 5px;
+    }
+}

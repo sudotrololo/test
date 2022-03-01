@@ -1,0 +1,25 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-top: 1rem;
+}
+
+.listItem {
+    position: relative;
+    width: 100%;
+    border-bottom: 1px #555 solid;
+    padding: 10px 0;
+    p {
+        margin: 5px 0;
+    }
+    a {
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}
